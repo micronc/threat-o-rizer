@@ -63,11 +63,11 @@ Create a `.env` file in the project root:
 
 ```
 ANTHROPIC_API_KEY=
-# Put your API Key behing the =
-# It annoys me that I have to highlight that "place_key_here" text so I didn't put it here.
 ```
+- Put your API Key behing the = It annoys me that I have to highlight that "place_key_here" text so I didn't put it here.
 
-**Never** commit this file. A `.env.example` is included for reference.
+
+**Never** commit this file `.env.example` to Github. I've included for reference.
 
 This means, put the .env.example (the example name is replaced with whatever you call you .env file, if you don't just leave it as .env) in the git.ignore file.
 These added instructions are not for people that are using Github frequently. These notes are for the person just starting. 
