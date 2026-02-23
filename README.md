@@ -91,7 +91,7 @@ Set the following environment variables before running:
 ```bash
 export VAULT_ADDR=https://your-vault-instance:8200
 export VAULT_TOKEN=
-export USE_VAULT=
+export USE_VAULT=true
 # 1. I left the "VAULT_ADDR=" the way it is because you may be in an enterprise and localhost or 127.0.0.1 is not going to work.
 # --- again... this is a note for the people just starting.
 # As stated before please place your token, and vault details after the double quotes.
